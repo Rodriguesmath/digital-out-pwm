@@ -46,6 +46,10 @@ A inicialização do firmware garante o estado de repouso (duty cycle em 0%) par
 ### Via Ambiente Local (ESP-IDF)
 1. Clone este repositório para o seu ambiente local de desenvolvimento.
 2. Certifique-se de possuir o ESP-IDF configurado e atualizado.
-3. Navegue até o diretório raiz do projeto e execute os comandos padrão de compilação e gravação:
+3. Navegue até o diretório raiz do projeto e defina o microcontrolador alvo como ESP32-S3:
    ```bash
-   idf.py build flash monitor
+   idf.py set-target esp32s3
+
+    Em seguida, execute os comandos padrão de compilação e gravação:
+    ```bash
+    idf.py build flash monitor
