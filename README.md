@@ -49,7 +49,9 @@ A inicialização do firmware garante o estado de repouso (duty cycle em 0%) par
 3. Navegue até o diretório raiz do projeto e defina o microcontrolador alvo como ESP32-S3:
    ```bash
    idf.py set-target esp32s3
-
+   ```
+   
     Em seguida, execute os comandos padrão de compilação e gravação:
     ```bash
     idf.py build flash monitor
+    ```
